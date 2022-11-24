@@ -210,14 +210,12 @@ jasmineRequire.HtmlReporter = function (j$) {
         createDom(
           'img',
           {
-            src: 'jasmine/jasmine-2.8.0/Logo-nav.png', // changed
+            src: 'https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/Kalvium-Logo.png', // changed
           },
           ''
         )
       );
-      labName.appendChild(
-        createDom('span', {}, 'Lab - 3 | Higer Order Functions')
-      );
+      labName.appendChild(createDom('span', {}, 'Higer Order Functions'));
       alert.appendChild(
         createDom(
           'span',
